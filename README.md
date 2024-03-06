@@ -1,2 +1,2 @@
 # GDSC-WEBSITE
-## [google-dsc-bppimt.netlify.app](https://google-dsc-bppimt.netlify.app/)
+## [Click here to visit to our website - google-dsc-bppimt](https://google-dsc-bppimt.netlify.app/)

@@ -43,15 +43,25 @@
     .col {
         width: 400px;
     }
+
+    .conduct-items-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     #bg-img {
         width: 300px;
+        top: 100px;
     }
 
     .content h1 {
-        font-size: 25px;
+        font-size: 2rem;
+        padding: 0 1rem;
     }
 
     .content h2 {
@@ -126,14 +136,6 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .contact-box {
-        width: clamp(100px, 90%, 1000px);
-        margin: 30px 10px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
     .contact-links {
         width: 100%;
         border-radius: 10px 10px 0 0;
@@ -155,5 +157,31 @@
 
     .gallery {
         padding: 2rem 10px;
+    }
+
+    .code-of-conduct {
+        padding: 2rem 1rem;
+    }
+
+    .code-of-conduct-container {
+        padding: 1rem;
+    }
+
+    .conduct-items-wrapper {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .conduct-item {
+        width: 280px;
+        padding: 1.5rem;
+    }
+
+    .conduct-item h4 {
+        font-size: 1.1rem;
+    }
+
+    .conduct-item p {
+        font-size: 0.9rem;
     }
 }
